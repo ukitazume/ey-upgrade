@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 
+gem 'bundler', '~> 1.12.5'
 # putting this first so we have pry available when loading other gems
 group :development, :test, :staging do
   gem 'pry'
