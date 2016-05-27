@@ -12,7 +12,7 @@ gem 'airbrake'
 
 gem 'rails', '4.2.6'
 gem 'abstract_method'
-gem 'activeadmin', github: 'activeadmin'
+gem 'activeadmin'
 gem 'addressable'
 gem 'aws-sdk', '~> 2'
 # apipie 0.3.4 has a couple issues
