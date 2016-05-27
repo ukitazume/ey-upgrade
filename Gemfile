@@ -50,7 +50,7 @@ gem 'resque'
 # TODO: may want to add this to track status of jobs
 # gem 'resque-status'
 gem 'rolify'
-gem 'rmagick'
+gem 'rmagick', :require => 'RMagick'
 gem 'ruby-prof'
 gem 'sass-rails', '~> 5.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
