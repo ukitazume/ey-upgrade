@@ -62,7 +62,7 @@ gem 'simple_form'
 gem 'uglifier', '>= 1.3.0'
 gem 'woocommerce_api'
 gem 'xmp', git: 'git@github.com:redcap97/xmp.git', :branch => "update-nokogiri"
-gem 'slack-api'
+gem 'slack-api', '>= 1.2.3'
 
 #gem 'turbolinks'
 
