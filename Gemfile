@@ -11,7 +11,7 @@ end
 #configure airbrake first
 gem 'airbrake'
 
-gem 'rails', '4.2.6'
+gem 'rails', '6.0.3.5'
 gem 'abstract_method'
 gem 'activeadmin', github: 'activeadmin'
 gem 'addressable'
@@ -27,10 +27,10 @@ gem 'exifr'
 
 gem 'font-awesome-rails'                                                                                                                  [53/7472]
 gem 'font-awesome-sass', '~> 4.2.0'
-gem 'geokit-rails'
+gem 'geokit-rails', '>= 2.1.0'
 gem 'haml'
 gem 'haml-rails'
-gem 'health_check'
+gem 'health_check', '>= 1.5.1'
 gem 'html2haml'
 gem 'indefinite_article'
 gem 'jbuilder', '~> 2.0'
