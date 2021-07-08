@@ -14,14 +14,14 @@ gem 'airbrake'
 gem 'rails', '4.2.6'
 gem 'abstract_method'
 gem 'activeadmin', github: 'activeadmin'
-gem 'addressable'
+gem 'addressable', '>= 2.8.0'
 gem 'aws-sdk', '~> 2'
 # apipie 0.3.4 has a couple issues
 gem 'apipie-rails', github: 'Apipie/apipie-rails', ref: '928bd858fd14ec67eeb9483ba0d43b3be8339608'
 gem 'bootstrap-sass', '~> 3.3.5'
 gem 'coffee-rails'
 gem 'devise'
-gem 'engineyard', '~> 3.2'
+gem 'engineyard', '~> 3.2', '>= 3.2.1'
 gem 'enumerize'
 gem 'exifr'
 
@@ -75,7 +75,7 @@ end
 
 group :development, :test do
   gem 'database_cleaner'
-  gem 'letter_opener'
+  gem 'letter_opener', '>= 1.4.1'
   gem 'rails-erd'
   gem 'rspec-activemodel-mocks'
   gem 'rspec-mocks'
@@ -84,6 +84,6 @@ group :development, :test do
   gem 'simplecov-csv'
   gem 'simplecov-rcov'
   gem 'timecop'
-  gem 'travis', '>= 1.7.7'
+  gem 'travis', '>= 1.8.2'
 end
 
