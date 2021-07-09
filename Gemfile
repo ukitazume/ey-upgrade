@@ -54,7 +54,7 @@ gem 'rolify'
 gem 'rmagick', :require => 'RMagick'
 gem 'ruby-prof'
 gem 'sass-rails', '~> 5.0'
-gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'sdoc', '~> 1.0.0', group: :doc
 gem 'seed-fu'
 gem 'sendgrid'
 
